@@ -119,5 +119,3 @@ if df is not None and not df.empty:
             file_name='datos_filtrados.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
 
-from google.colab import drive
-drive.mount('/content/drive')
